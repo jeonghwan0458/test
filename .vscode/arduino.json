@@ -1,0 +1,5 @@
+{
+    "sketch": "Ventilator.ino",
+    "board": "arduino:avr:uno",
+    "port": "COM3"
+}
