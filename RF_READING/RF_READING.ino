@@ -16,7 +16,6 @@ void setup() {
   pinMode(4,INPUT);
   pinMode(9,INPUT);
   servo1.attach(6);
-  servo2.attach(5);
   radio.begin();
   radio.openReadingPipe(0, address);
   radio.setPALevel(RF24_PA_MIN); //전원공급에 관한 파워레벨을 설정합니다. 모듈 사이가 가까우면 최소로 설정합니다.
