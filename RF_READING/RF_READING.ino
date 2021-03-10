@@ -26,7 +26,7 @@ void setup() {
   radio.startListening(); //모듈을 수신기로 설정
 }
 void loop() {
-    int swich1 = digitalRead(8);
+    int swich1 = digitalRead(9);
     int swich2 = digitalRead(4);
     Serial.println(swich2);
   if (radio.available()) {
